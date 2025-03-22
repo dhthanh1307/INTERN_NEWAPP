@@ -1,18 +1,19 @@
 "use client";
-import { Header } from "@/components";
-import { Promotion, Sale } from "@/modules";
-import { useRouter } from "next/navigation";
+import { Banner, Header, NaviBar } from "@/components";
+import { Flashsale, ListProduct, Promotion, Sale } from "@/modules";
+// import { useRouter } from "next/navigation";
 
 export default function Home() {
-  const router = useRouter();
+  // const router = useRouter();
   return (
     <div className="bg-cloud">
       <Header />
-      <Promotion/>
-      <Sale/>
-      <div>
-        djdj
-      </div>
+      <Promotion />
+      <Sale />
+      <Flashsale />
+      <Banner src={["./images/home/banner.png"]} className="p-2.5 " containerClassName="mt-2.5" />
+      <ListProduct/>
+      <NaviBar/>
     </div>
   );
 }

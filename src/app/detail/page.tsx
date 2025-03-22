@@ -1,7 +1,7 @@
 
 export default function Home() {
     return (
-      <div className="font-bold text-3xl">
+      <div className="text-3xl font-bold">
         detail
       </div>
     );

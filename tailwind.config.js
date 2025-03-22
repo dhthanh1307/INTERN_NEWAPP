@@ -33,7 +33,8 @@ module.exports = {
         cloud:"#E8EDF1",
         cloudlight:"#F5F7F9",
         productlight:"#E8F5E6",
-        blue:"#0172CB"
+        blue:"#0172CB",
+        red:"#E70127"
       },
       width: {
         54: "54px",
