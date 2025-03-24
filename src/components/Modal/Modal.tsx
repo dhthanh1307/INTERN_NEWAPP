@@ -11,7 +11,7 @@ interface ModalProps {
 export const Modal: FC<ModalProps> = ({ isOpen, onClose, header, children }) => {
     return (
         <div className={classNames(
-            "fixed bottom-0 left-0 right-0 z-50  transition-transform duration-300 ease-in-out rounded-tl-2xl rounded-tr-2xl bg-white" ,
+            "fixed bottom-0 left-0 right-0 z-50  transition-transform duration-500 ease-in-out rounded-tl-2xl rounded-tr-2xl bg-white" ,
             { "translate-y-0": isOpen, "translate-y-full": !isOpen })}>
             <div className="flex items-center justify-between px-2 ">
                 {header}

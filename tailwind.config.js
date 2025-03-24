@@ -30,6 +30,7 @@ module.exports = {
         bac:"#BAC7D580",
         ink:"#4F5E71",
         inkdark:"#252A31",
+        inklight:"#697D95",
         cloud:"#E8EDF1",
         cloudlight:"#F5F7F9",
         productlight:"#E8F5E6",

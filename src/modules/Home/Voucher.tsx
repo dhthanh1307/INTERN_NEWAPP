@@ -4,7 +4,7 @@ import { Button } from "@/components";
 
 export const Voucher: FC = () => {
     return (
-        <div className="w-full">
+        <div className="w-full px-8">
             <div className=" flex w-full  bg-[url('/images/home/voucher_background.png')] bg-contain bg-no-repeat ">
                 <div className="flex h-66 w-66 items-center justify-center rounded-bl-lg rounded-tl-lg  bg-normal/5">
                     <img src="/images/general/avatar.png " className="size-10 " alt="" />

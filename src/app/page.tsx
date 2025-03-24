@@ -7,13 +7,15 @@ export default function Home() {
   // const router = useRouter();
   return (
     <div className="bg-cloud">
-      <Header />
+      <div className="bg-normal">
+        <Header />
+      </div>
       <Promotion />
       <Sale />
       <Flashsale />
       <Banner src={["./images/home/banner.png"]} className="p-2.5 " containerClassName="mt-2.5" />
-      <ListProduct/>
-      <NaviBar/>
+      <ListProduct />
+      <NaviBar />
     </div>
   );
 }

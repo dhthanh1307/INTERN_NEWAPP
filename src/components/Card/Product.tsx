@@ -11,7 +11,7 @@ export const ProductItem: FC<{ product: Product }> = ({ product }) => {
                 <div className="absolute bottom-0 w-fit rounded-tr-lg bg-normal">
                     <img src="/images/productDetail/fast_delivery_logo.png" className="w-16 p-1.5" />
                 </div>
-                <div className="flex min-h-[150px] w-full items-center">
+                <div className="flex min-h-[160px] w-full items-center">
                     <img className="rounded-tl-lg rounded-tr-lg " src={product.image_link} alt="" />
                 </div>
             </div>
