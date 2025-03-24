@@ -172,11 +172,11 @@ export default [
       // Lỗi khi import cùng một module nhiều lần
       'no-duplicate-imports': 2,
 
-      // Bắt buộc sắp xếp export
-      'simple-import-sort/exports': 2,
+      // // Bắt buộc sắp xếp export
+      // 'simple-import-sort/exports': 2,
 
-      // Bắt buộc sắp xếp import theo thứ tự hợp lý
-      'simple-import-sort/imports': 2,
+      // // Bắt buộc sắp xếp import theo thứ tự hợp lý
+      // 'simple-import-sort/imports': 2,
 
       // Không bắt buộc chỉ export component (cho phép export constant)
       'react-refresh/only-export-components': [0, { allowConstantExport: true }],
@@ -194,16 +194,16 @@ export default [
       ],
 
       // Cách dòng cho từng function
-      'padding-line-between-statements': [
-        2,
-        // Yêu cầu dòng trắng trước và sau function
-        { blankLine: 'always', prev: '*', next: 'function' },
-        { blankLine: 'always', prev: 'function', next: '*' },
-        { blankLine: 'always', prev: '*', next: 'expression' },
-        { blankLine: 'always', prev: 'expression', next: '*' },
-        { blankLine: 'always', prev: ['const'], next: ['const'] },
-        { blankLine: 'always', prev: '*', next: 'return' },
-      ],
+      // 'padding-line-between-statements': [
+      //   2,
+      //   // Yêu cầu dòng trắng trước và sau function
+      //   { blankLine: 'always', prev: '*', next: 'function' },
+      //   { blankLine: 'always', prev: 'function', next: '*' },
+      //   { blankLine: 'always', prev: '*', next: 'expression' },
+      //   { blankLine: 'always', prev: 'expression', next: '*' },
+      //   { blankLine: 'always', prev: ['const'], next: ['const'] },
+      //   { blankLine: 'always', prev: '*', next: 'return' },
+      // ],
     },
   },
   prettierConfig,
