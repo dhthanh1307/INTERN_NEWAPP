@@ -1,10 +1,8 @@
 "use client";
 import { Banner, Header, NaviBar } from "@/components";
 import { Flashsale, ListProduct, Promotion, Sale } from "@/modules";
-// import { useRouter } from "next/navigation";
 
 export default function Home() {
-  // const router = useRouter();
   return (
     <div className="bg-cloud">
       <div className="bg-normal">
