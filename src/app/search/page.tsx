@@ -3,7 +3,7 @@ import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import { Header } from "@/components";
-import { ListProduct, NotFound } from "@/modules";
+import { CategoryFilter, Filter, ListProduct, NotFound, Shop } from "@/modules";
 import { Product } from "@/types";
 
 import products from "../../mock/product.json";
@@ -31,8 +31,13 @@ export default function Search() {
             <div className="bg-white">
                 <Header />
             </div>
-            {filteredProducts.length > 0 ? (<div>có</div>): (<NotFound keyword={query} />)}
-            
+            {filteredProducts.length > 0 ?
+                (<div>
+                    <Shop/>
+                    <CategoryFilter/>
+                    <Filter/>
+                </div>) :
+                (<NotFound keyword={query} />)}
             <ListProduct />
         </div>
     );

@@ -35,7 +35,9 @@ module.exports = {
         cloudlight:"#F5F7F9",
         productlight:"#E8F5E6",
         blue:"#0172CB",
-        red:"#E70127"
+        red:"#E70127",
+        redlight:"#FDE6E9"
+
       },
       width: {
         54: "54px",

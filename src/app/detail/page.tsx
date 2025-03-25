@@ -1,9 +1,11 @@
+"use client";
+import { HeaderDetail, ImageView } from "@/modules";
 
 export default function Detail() {
-    return (
-      <div className="text-3xl font-bold">
-        detail
-      </div>
-    );
-  }
-  
+  return (
+    <div className="bg-cloud">
+      <HeaderDetail/>
+      <ImageView/>
+    </div>
+  );
+}
